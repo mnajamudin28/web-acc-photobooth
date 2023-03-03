@@ -17,7 +17,7 @@ const NameRequestA4 = () => {
           <li><a href="/">Home</a></li>
         </ul>
       </div>
-      <h1 className='judul-paket'>Name Request 2</h1>
+      <h1 className='judul-paket'>Name Request A4</h1>
       <div className='paket-props'>
         <IamgesNRA4 />
 

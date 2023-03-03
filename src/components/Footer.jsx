@@ -6,7 +6,7 @@ import logotoped from '../img/logo-toped.png'
 const Footer = () => {
   return (
     <div className='footer'>
-      <h1>Order Now</h1>
+      <h1>Order Now <span>&#8595;</span></h1>
       <div className='main-box-contact'>
         <a href="https://www.tokopedia.com/accphotobooth?source=universe&st=product"><div className='logo-contact' >
           <img src={logotoped} alt="" /> <p>Acc Photobooth</p>

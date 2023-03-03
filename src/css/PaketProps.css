@@ -1,36 +1,104 @@
-.paket-props{
-   width: 1200px;
-   margin: auto;
-   background-color: #004538;
-   padding-top: 20px;
-   padding-left: 15px;
-   padding-right: 15px;
-   border-radius: 20px;
-   padding-bottom: 15px;
+@media (min-width:600px){
+   .paket-props {
+      width: 1200px;
+      margin: auto;
+      background-color: #004538;
+      padding-top: 20px;
+      padding-left: 15px;
+      padding-right: 15px;
+      border-radius: 20px;
+      padding-bottom: 15px;
+   }
+
+   .judul-paket {
+      color: #004538;
+      text-align: center;
+      font-size: 64px;
+   }
+
+   .card-img-paket {
+      width: 280px;
+      display: inline-block;
+      position: relative;
+      margin: 10px;
+   }
+
+   .card-img-paket img {
+      width: 280px;
+      border-radius: 10px;
+      transition: transform .3s;
+   }
+
+   .card-img-paket:hover img {
+      transform: scale(0.95);
+      opacity: 0.8;
+   }
 }
 
-.judul-paket{
-   color: #004538;
-   text-align: center;
-   font-size: 64px;
+@media (max-width: 599px){
+   .header-product{
+      width: 400px;
+      height: 100px;
+      margin: auto;
+   }
+
+   .header-product img{
+      width: 120px;
+      margin-left: 20px;
+   }
+
+   .header-product ul{
+      list-style-type: none;
+      margin-left: 150px;
+   }
+
+   .header-product li{
+      margin-top: 13px;
+   }
+
+   .header-product li a{
+      text-decoration: none;
+      color: #004538;
+   }
+
+   .header-product li a:hover {
+      color: #0ebe9b;
+   }
+
+   .judul-paket {
+      color: #004538;
+      text-align: center;
+      font-size: 36px;
+      margin-top: 80px;
+      font-weight: normal;
+   }
+
+   .paket-props {
+      width: 380px;
+      margin: auto;
+      background-color: #004538;
+      padding-top: 20px;
+      padding-left: 5px;
+      padding-right: 17px;
+      border-radius: 15px;
+      padding-bottom: 20px;
+   }
+   .card-img-paket {
+      width: 100px;
+      display: inline-block;
+      position: relative;
+      margin-left: 20px;
+      margin-top: 10px;
+   }
+
+   .card-img-paket img {
+      width: 110px;
+      border-radius: 10px;
+      transition: transform .3s;
+   }
+
+   .card-img-paket:hover img {
+      transform: scale(0.95);
+      opacity: 0.8;
+   }
 }
-
-.card-img-paket {
-   width: 280px;
-   display: inline-block;
-   position: relative;
-   margin: 10px;
-}
-
-.card-img-paket img {
-   width: 280px;
-   border-radius: 10px;
-   transition: transform .3s;
-}
-
-.card-img-paket:hover img {
-   transform: scale(0.95);
-   opacity: 0.8;
-}
-
-

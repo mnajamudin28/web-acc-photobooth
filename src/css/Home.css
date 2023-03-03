@@ -1,209 +1,410 @@
-.header{
-   margin: 0;
+
+@media (min-width : 600px){
+.header {
+      margin: 0;
+   }
+
+   .logo {
+      margin-left: 50px;
+      margin-top: 5px;
+      width: 140px;
+   }
+
+   .toggle {
+      display: inline-block;
+   }
+
+   ul {
+      list-style-type: none;
+      margin: 0;
+      padding-left: 10%;
+      padding-right: 15%;
+      padding-top: 3%;
+      overflow: hidden;
+      background-color: #004538;
+      width: 30%;
+      height: 100px;
+      border-radius: 0 0 0 80px;
+      float: right;
+   }
+
+   li {
+      float: right;
+   }
+
+   li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 14px;
+      text-decoration: none;
+   }
+
+   li a:hover {
+      background-color: #08c09e7c;
+      border-radius: 10px;
+   }
+
+   .header-product ul {
+      width: 600px;
+   }
+
+   .menu-mobile{visibility: hidden;}
+
+   /* ------------------------------------ */
+   .main-banner {
+      background-color: #004538;
+      height: 400px;
+      width: 800px;
+      padding-top: 70px;
+      padding-left: 100px;
+      margin-bottom: 100px;
+      margin-top: 100px;
+      border-radius: 0 0 100px 0;
+      color: white;
+   }
+
+   .main-banner h1 {
+      font-size: 73px;
+      margin-bottom: -30px;
+   }
+
+   .main-banner p {
+      width: 580px;
+      font-size: 26px;
+      text-align: justify;
+   }
+
+   /* ----------How To Order---------------------- */
+
+   #HowToOrder h1 {
+      padding-top: 40px;
+      padding-bottom: 25px;
+      padding-left: 100px;
+      background-color: #004538;
+      height: 100px;
+      border-radius: 100px 0 0 100px;
+      color: aliceblue;
+      font-size: 64px;
+   }
+
+   #HowToOrder h3 {
+      text-align: center;
+      font-size: 42px;
+   }
+
+   .main-hto {
+      margin: auto;
+      width: 1200px;
+      height: 550px;
+   }
+
+   .box-hto {
+      background-color: #004538;
+      width: 280px;
+      height: 200px;
+      display: inline-block;
+      margin-left: 100px;
+      margin-top: 30px;
+      position: relative;
+      border-radius: 0 0 80px 0;
+   }
+
+   .box-hto a {
+      color: inherit;
+   }
+
+   .box-hto p {
+      color: aliceblue;
+      position: absolute;
+      top: 1%;
+      font-size: 20px;
+      padding: 30px;
+   }
+
+   /* ---------------Product------------------- */
+
+   #product h1 {
+      color: aliceblue;
+      font-size: 64px;
+      margin-left: 50px;
+      background-color: #004538;
+      width: 350px;
+      height: 100px;
+      padding-left: 30px;
+      padding-top: 15px;
+      border-radius: 0 80px 80px 0;
+   }
+
+   .kategori {
+      height: 700px;
+      background-color: #004538;
+      color: aliceblue;
+      margin-top: -50px;
+   }
+
+   .kategori h3 {
+      padding-top: 50px;
+      font-size: 64px;
+      text-align: center;
+   }
+
+   .img-kategori {
+      margin: auto;
+      width: 1200px;
+   }
+
+   .card-img {
+      width: 280px;
+      height: 400px;
+      display: inline-block;
+      margin-left: 20px;
+      position: relative;
+   }
+
+   .card-img img {
+      width: 250px;
+      border-radius: 10px;
+      margin-left: 15px;
+      transition: transform .3s;
+   }
+
+   .card-img:hover img {
+      transform: scale(0.95);
+      opacity: 0.8;
+   }
+
+   .card-img h4 {
+      text-align: center;
+      font-size: 26px;
+      margin-top: 20px;
+   }
+
+   /* ----------Footer---------------- */
+
+   .footer {
+      height: 350px;
+   }
+
+   .footer h1 {
+      height: 100px;
+      text-align: center;
+      font-size: 64px;
+      color: #004538;
+      padding-top: 20px;
+      font-weight: bold;
+   }
+
+   .main-box-contact {
+      width: 1100px;
+      margin: auto;
+   }
+
+   .logo-contact {
+      width: 350px;
+      height: 100px;
+      display: inline-block;
+      font-size: 18px;
+      margin-left: 12px;
+      color: #004538;
+   }
+
+   .logo-contact img {
+      float: left;
+      padding-right: 10px;
+   }
 }
 
-.logo {
-   margin-left: 50px;
-   margin-top: 5px;
-   width: 140px;
-}
-.toggle{
-   display: inline-block;
-}
-ul {
-   list-style-type: none;
-   margin: 0;
-   padding-left: 10%;
-   padding-right: 15%;
-   padding-top: 3%;
-   overflow: hidden;
-   background-color: #004538;
-   width: 30%;
-   height: 100px;
-   border-radius: 0 0 0 80px;
-   float: right;
-}
+/* -----------tampilan mobile------------------- */
 
-li {
-   float: right;
-}
+@media (max-width:599px){
+   .header{
+      width: 400px;
+      height: 100px;
+      margin: auto;
+   }
+   
+   .logo {
+      width: 130px;
+      float: left;
+   }
 
-li a {
-   display: block;
-   color: white;
-   text-align: center;
-   padding: 14px 14px;
-   text-decoration: none;
-}
+   .menu-web{
+      visibility: hidden;
+   }
 
-li a:hover {
-   background-color: #08c09e7c;
-   border-radius: 10px;
-}
+   .menu-mobile{
+      width: 200px;
+      height: 100px;
+      display: inline-block;
+      margin-top: -50px;
+   }
+   .menu-mobile img{
+      width: 50px;
+      text-decoration: none;
+      margin-left: 10px;
+      margin-right: 20px;
+   }
 
-.header-product ul{
-   width: 600px;
-}
+   .menu-mobile li{
+      display: inline;
+   }
 
-/* ------------------------------------ */
-.main-banner{
-   background-color: #004538;
-   height: 400px;
-   width: 800px;
-   padding-top: 70px;
-   padding-left: 100px;
-   margin-bottom: 100px;
-   margin-top: 100px;
-   border-radius: 0 0 100px 0;
-   color: white;
-}
-
-.main-banner h1{
-   font-size: 73px;
-   margin-bottom: -30px;
-}
-
-.main-banner p{
-   width: 580px;
-   font-size: 26px;
-   text-align: justify;
-}
-
-/* ----------How To Order---------------------- */
-
-#HowToOrder h1{
-   padding-top: 40px;
-   padding-bottom: 25px;
-   padding-left: 100px;
-   background-color: #004538;
-   height: 100px;
-   border-radius: 100px 0 0 100px;
-   color: aliceblue;
-   font-size: 64px;
-}
-
-#HowToOrder h3{
-   text-align: center;
-   font-size: 42px;
-}
-
-.main-hto {
+  .main-banner{
+   width: 400px;
+   height: 190px;
    margin: auto;
-   width: 1200px;
-   height: 550px;
-}
-
-.box-hto{
-   background-color: #004538;
-   width: 280px;
-   height: 200px;
-   display: inline-block;
-   margin-left: 100px;
-   margin-top: 30px;
-   position: relative;
-   border-radius: 0 0 80px 0;
-}
-
-.box-hto a{
-   color: inherit;
-}
-
-.box-hto p{
-   color: aliceblue;
-   position: absolute;
-   top: 1%;
-   font-size: 20px;
-   padding: 30px;
-}
-
-/* ---------------Product------------------- */
-
-#product h1{
-   color: aliceblue;
-   font-size: 64px;
-   margin-left: 50px;
-   background-color: #004538;
-   width: 350px;
-   height: 100px;
-   padding-left: 30px;
-   padding-top: 15px;
-   border-radius: 0 80px 80px 0;
-}
-
-.kategori {
-   height: 700px;
+   margin-top: 50px;
    background-color: #004538;
    color: aliceblue;
-   margin-top: -50px;
-}
+   border-radius: 30px 0 30px 0;
+   }
 
-.kategori h3{
-   padding-top: 50px;
-   font-size: 64px;
-   text-align: center;
-}
+   .main-banner h1{
+      padding-top: 20px;
+      padding-left: 30px;
+   }
+   
+   .main-banner p{
+      margin-left: 30px;
+      margin-right: 20px;
+   }
 
-.img-kategori{
-   margin: auto;
-   width: 1200px;
-}
+   #HowToOrder{
+      width: 400px;
+      margin: auto;
+   }
 
-.card-img {
-   width: 280px;
-   height: 400px;
-   display: inline-block;
-   margin-left: 20px;
-   position: relative;
-}
+   #HowToOrder h1{
+      background-color: #004538;
+      height: 50px;
+      border-radius: 25px 0 25px 0;
+      color: aliceblue;
+      padding-left: 30px;
+      padding-top: 10px;
+   }
 
-.card-img img {
-   width: 250px;
-   border-radius: 10px;
-   margin-left: 15px;
-   transition: transform .3s;
-}
+   #HowToOrder h3{
+      text-align: center;
+      font-weight: normal;
+   }
 
-.card-img:hover img {
-   transform: scale(0.95);
-   opacity: 0.8;
-}
+   .main-hto{
+      width: 360px;
+      margin: auto;
+   }
 
-.card-img h4{
-   text-align: center;
-   font-size: 26px;
-   margin-top: 20px;
-}
+   .box-hto a{
+      color: inherit;
+   }
 
-/* ----------Footer---------------- */
+   .box-hto{
+      background-color: #004538;
+      color: aliceblue;
+      height: 150px;
+      width: 150px;
+      display: inline-block;
+      margin-left: 20px;
+      margin-top: 10px;
+      position: relative;
+      border-radius: 15px;
+   }
 
-.footer{
-   height: 350px;
-}
+   .box-hto p{
+      position: absolute;
+      padding-left: 10px;
+      padding-right: 10px;
+   }
 
-.footer h1{
-   height: 100px;
-   text-align: center;
-   font-size: 64px;
-   color: #004538;
-   padding-top: 20px;
-   font-weight: bold;
-}
+   #product{
+      width: 400px;
+      margin: auto;
+   }
 
-.main-box-contact{
-   width: 1100px;
-   margin: auto;
-}
+   #product h1{
+      background-color: #004538;
+      height: 50px;
+      border-radius: 25px 0 25px 0;
+      color: aliceblue;
+      padding-left: 30px;
+      padding-top: 10px;
+   }
 
-.logo-contact {
-   width: 350px;
-   height: 100px;
-   display: inline-block;
-   font-size: 18px;
-   margin-left: 12px;
-   color: #004538;
-}
+   .kategori {
+      height: 600px;
+      background-color: #004538;
+      color: aliceblue;
+      border-radius: 20px;
+      padding-top: 20px;
+   }
 
-.logo-contact img{
-   float: left;
-   padding-right: 10px;
+   .kategori h3 {
+      padding-top: 30px;
+      font-size: 64px;
+      text-align: center;
+   }
+
+   #product h3{
+      text-align: center;
+      font-size: 34px;
+      margin-top: -15px;
+   }
+
+   .card-img{
+      display: inline-block;
+      margin-left: 35px;
+      height: 210px;
+      margin-top: 10px;
+      text-align: center;
+   }
+
+   .card-img img{
+      width: 150px;
+      border-radius: 15px;
+      transition: transform .3s;
+   }
+      
+   
+   .card-img:hover img {
+      transform: scale(0.95);
+      opacity: 0.8;
+   }
+
+   .card-img h4{
+      margin-top: 0px;
+      font-weight: normal;
+   }
+
+   .footer{
+      width: 400px;
+      margin: auto;
+   }
+
+   .footer h1{
+      text-align: center;
+      color: #004538;
+   }
+
+   .main-box-contact{
+      width: 300px;
+      height: 100px;
+      margin: auto;
+   }
+
+   .main-box-contact p{
+      display: none;
+   }
+
+   .logo-contact{
+      width: 50px;
+      display: inline-block;
+      font-size: 18px;
+      margin-left: 40px;
+      color: #004538;
+   }
+
+   .logo-contact img {
+      width: 50px;
+      padding-right: 10px;
+   }
 }
