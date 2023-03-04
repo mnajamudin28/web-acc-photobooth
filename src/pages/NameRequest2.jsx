@@ -8,7 +8,7 @@ const NameRequest2 = () => {
   return (
     <div>
       <div className='header-product'>
-        <img src={logo} alt="" className='logo' />
+        <a href="/"><img src={logo} alt="" className='logo' /></a>
         <div className='toggle'></div>
         <ul>
           <li><Link to="/NameRequestA4">Name Request A4</Link></li>

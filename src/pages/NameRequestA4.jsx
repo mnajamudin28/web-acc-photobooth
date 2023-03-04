@@ -8,7 +8,7 @@ const NameRequestA4 = () => {
   return (
     <div>
       <div className='header-product'>
-        <img src={logo} alt="" className='logo' />
+        <a href="/"><img src={logo} alt="" className='logo' /></a>
         <div className='toggle'></div>
         <ul>
           <li><Link to="/NameRequest2">Name Request 2</Link></li>
